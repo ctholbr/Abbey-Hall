@@ -1,0 +1,43 @@
+nav #photonavbar { 
+	width: 900px;
+	text-align: center;
+	margin: 200px auto 10px auto;
+}
+nav #photonavbar li { 
+	display: inline-block;
+	font-family: quattrocento, serif;
+	font-size: 14px;
+	margin: 0 10px;
+	font-weight: bold; 
+	letter-spacing: 3pt; 
+	text-transform: uppercase;
+}
+nav #photonavbar li a{
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	-webkit-transition: width 0.3s linear, background 0.2s ease;
+	-moz-transition: width 0.3s linear, background 0.2s ease;
+	-o-transition: width 0.3s linear, background 0.2s ease;
+	transition: width 0.3s linear, background 0.2s ease;
+	padding: 10px;
+}
+nav #photonavbar li a:hover, nav #photonavbar li a:active {
+	color: white;
+	background: #3e260c;
+	background: rgba(62, 38, 12, 0.5);
+}
+.here li a {
+	color: white;
+	background: #3e260c;
+	background: rgba(62, 38, 12, 0.5);
+}
+nav #photonavbar li:last-child {
+	margin: 0;
+}
+div #orbit {
+	margin: 0;
+}

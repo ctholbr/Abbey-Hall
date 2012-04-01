@@ -1,0 +1,124 @@
+#sensesnavbar {
+	width: 225px;
+	height: 239px;
+	float: left;
+	background-color: white;
+	padding: 20px;
+	margin: 210px 0 0 0;
+}
+#sensesnavbar h2, #sensesnavbar li a {
+	font-family: quattrocento, serif;
+	text-transform: uppercase;
+	color: #3e260c;
+}
+#sensesnavbar h2 {
+	text-align: center;
+	letter-spacing: 3px;
+}
+#sensesnavbar li {
+	font-size: 14px;
+	letter-spacing: 5px;
+	line-height: 30px;
+}
+#sensesnavbar li a{
+	padding: 5px 5px 5px 40px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-transition: width 0.3s linear, background 0.2s ease;
+	-moz-transition: width 0.3s linear, background 0.2s ease;
+	-o-transition: width 0.3s linear, background 0.2s ease;
+	transition: width 0.3s linear, background 0.2s ease;
+}
+#sensesnavbar li a:hover, #sensesnavbar li a:focus, #sensesnavbar li a:active {
+	color: white;
+	background: #3e260c;
+	background: rgba(62, 38, 12, 0.5);
+}
+#sensesnavbar #here li a{
+	color: white;
+	background: #3e260c;
+	background: rgba(62, 38, 12, 0.5);
+}
+#sensesnavbar img {
+	width: 250px;
+	display: block;
+	position: relative;
+	right: 20px;
+}
+
+#senses img {
+	width: 600px;
+	height: auto;
+	border: 3px solid white;
+	float: left;
+	margin: 210px 0 50px 20px;
+}
+#line img {
+	border: none;
+	width: 100%;
+	position: relative;
+	right: 40px;
+	margin: 20px 0 0 0;
+}
+#fivearticle {
+	width: 800px;
+	margin: 10px auto;
+}
+#fivearticle h1 {
+
+	font-family: quattrocento, serif;
+	font-size: 33px;
+	color: #3e260c;
+	text-transform: uppercase;
+	margin: 20px auto 0 20px;
+}
+#fivearticle h2{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	color: #3e260c;
+	text-transform: uppercase;
+}
+#fivearticle h2.dogwood {
+	margin-bottom: 20px;
+}
+#fivearticle #line img {
+	border: none;
+	width: 100%;
+	margin: 0;
+}
+#fivearticle  p {
+	font-family: sans-serif;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+}
+#fivearticle p.sources{
+	padding-top: 20px;
+	font-size: 12px;
+}
+span.super {
+	vertical-align: super;
+	font-size: 11px;
+}
+span.title {
+	font-style: italic;
+}
+table {
+	width: 650px;
+	margin: 20px auto;
+}
+td.describe{
+	padding: 20px 0 20px 30px;
+}
+footer {
+	clear: both;
+	position: relative;
+	bottom: 0;
+}
+footer p {
+	font-size: 12px;
+	font: Georgia, Times, serif;
+}
