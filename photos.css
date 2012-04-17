@@ -44,3 +44,9 @@ div #orbit {
 p.caption {
 	display: none;
 }
+#orbit { 
+          width: 1020px;
+          height: 400px;
+           background: #000 url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
+     #orbit img,  
+     #orbit div { display: none; }
