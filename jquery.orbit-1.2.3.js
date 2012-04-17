@@ -275,6 +275,12 @@
             			shift($(this).data('index'));
             		});
             	}
+
+                var wrapper_width = orbitWrapper.width();
+                var bullets_width = orbitWrapper.children('ul.orbit-bullets').width();
+                var bullets_margin = (wrapper_width - bullets_width) / 2;
+                orbitWrapper.children('ul.orbit-bullets').css('margin-left', bullets_margin);
+
             	setActiveBullet();
             }
             
