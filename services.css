@@ -1,0 +1,36 @@
+.content {
+	margin: 210px auto 0 auto;
+	width: 900px;
+	color: #3e260c;
+}
+section.intro{
+	width: 850px;
+	margin: 0 0 0 70px;
+}
+h1, h2{
+	font-family: quattrocento, sans-serif;
+}
+h1{
+	font-size: 27px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+h2{
+	font-size: 21px;
+	line-height: 1.5em;
+}
+#process p {
+	margin: 20px 0 20px 0;
+	font-family: verdana, sans-serif;
+	line-height: 1.6em;
+}
+table {
+	width: 850px;
+	margin: 0 0 0 70px;
+}
+td.describe {
+	width: 450px;
+}
+td.title {
+	width: 300px;
+}

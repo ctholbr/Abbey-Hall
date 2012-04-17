@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Abbey Hall Interiors</title>
+    <meta charset="utf-8" />
+    <link href="base.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="photos.css" type="text/css" rel="stylesheet">
+    <link href="orbit-1.2.3.css" type="text/css" rel="stylesheet">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="jquery.orbit-1.2.3.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $("#orbit").orbit({
+                animation: "fade",
+                timer: true,
+                directionalNav: false,
+                bullets: true,
+            });
+        });
+    </script>
+</head>
+<body>
+        <header>
+            <div id="hcontent">
+                <a href="index.html" id="logo">
+                    <img src="images/logo.png" alt="Abbey Hall Logo"/>
+                </a>
+            <ul id="navbar">
+                <li><a href="about.html">About</a></li>
+                <li><a href="senses.html">Sensory Appeal</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </header>
+        <div class="content">
+            <nav>
+            <ul id="photonavbar">
+                <li><a href="kitchen.html">Kitchen</a></li>
+                <li><a href="livingroom.html">Living Room</a></li>
+                <li><a href="diningroom.html">Dining Room</a></li>
+                <li><a href="bedroom.html">Bedroom</a></li>
+                <li><a href="recreation.html">Recreation</a></li>
+                <span class="here"><li><a href="hall.html">Hall</a></li></span>
+            </ul>
+            </nav>
+            <div id="orbit">
+                <img src="images/hall.png" alt="dogwood forest dunwoody" data-caption="#slide1caption" />
+                <img src="images/hall1.png" alt="hall" data-caption='#slide4caption' />
+                <img src="images/hall2.png" alt="hall" data-caption='#slide4caption' />
+                <img src="images/hall3.png" alt="dogwood forest buckhead" data-caption="#slide4caption" />
+                <img src="images/hall4.png" alt="dogwood forest alpharetta" data-caption="#slide5caption" />
+            </div>
+            <p class="caption"><span class="orbit-caption" id="slide1caption">Dogwood Forest Assisted Living Community, Dunwoody, GA</span></p>
+            <p class="caption"><span class="orbit-caption" id="slide4caption">Dogwood Forest Assisted Living Community, Buckhead, GA</span></p>
+            <p class="caption"><span class="orbit-caption" id="slide5caption">Dogwood Forest Assisted Living Community, Alpharetta, GA</span></p>
+        </div>
+     <footer>
+        <p>&copy Abbey Hall Interiors 2011 | 48 Old Roswell St, Alpharetta, GA 30009 | 678-566-0034</p>
+     </footer>
+</body>
+</html>

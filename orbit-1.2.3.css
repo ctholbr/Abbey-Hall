@@ -172,7 +172,7 @@ div.slider-nav span.left {
     z-index: 1000;
     list-style: none;
     bottom: -50px;
-	margin-left: 420px;
+	margin-left: 0px;
     padding: 0; }
 
 .orbit-bullets li {

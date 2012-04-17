@@ -56,13 +56,17 @@ div#orbit {
 	-webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888;
 }
+div#orbit img {
+	display: none;
+}
 
 div.timer {
 	display: none !important;
 }
 footer{
+	font-family: quicksand, sans-serif;
 	bottom: 0;
 	text-align: center;
 	padding: 20px;
-	font-size: 14px;
+	font-size: 16px;
 }

@@ -41,3 +41,6 @@ nav #photonavbar li:last-child {
 div #orbit {
 	margin: 0;
 }
+p.caption {
+	display: none;
+}
